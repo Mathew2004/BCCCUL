@@ -536,6 +536,11 @@ body{
 }
 .about-page .ab-container .box-1{
   margin-bottom: 15px;
+  width: 300px;
+}
+  .about-page .ab-container .box-1 img{
+    height: 300px;
+    width: 300px;
 }
 /***Products & Services ****/
 .products .pd-container {
