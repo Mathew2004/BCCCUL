@@ -2,7 +2,6 @@
 *{
   margin: 0;
   padding: 0;
-  user-select: none;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -305,7 +304,7 @@ nav ul ul ul li{
       background-size: cover;
       width: 300px;
       height: 300px;
-     
+
     }
 
 .swiper-slide .profile {
@@ -488,14 +487,21 @@ nav ul ul ul li{
     font-size: 25px;
   }
   .navbar .top-nav{
-    width: 70%;
-  }
-  .navbar .top-nav .left{
     text-align: center;
   }
-  .navbar .top-nav .right{
-    display: none;
+  .navbar .top-nav .left img[alt="logo"]{
+    text-align: center;
   }
+  .navbar .top-nav .left img[alt="tagline"]{
+    width: 300px;
+  }
+ .navbar .top-nav .left{
+  margin: 3px 0px;
+} 
+.navbar .top-nav .right{
+  display: none;
+}
+
   
   nav ul ul{
     top: 70px;
@@ -538,10 +544,13 @@ body{
   margin-bottom: 15px;
   width: 300px;
 }
-  .about-page .ab-container .box-1 img{
+
+
+.about-page .ab-container .box-1 img{
     height: 300px;
     width: 300px;
 }
+
 /***Products & Services ****/
 .products .pd-container {
   flex-wrap: wrap;
@@ -555,6 +564,7 @@ body{
 /****Footter***/
 .footer{
   height: max-content;
+  width: 100%;
 }
 .footer .footer-container{
   display: flex;
@@ -563,20 +573,23 @@ body{
 }
 .footer .footer-container .side1{
   margin-left: 50px;
-  width: 100%;
+  width: 90%;
 }
 .footer .footer-container .side2{
   width: 100%;
   margin-left: 50px;
+  margin-top: 30px;
 }
 .footer .footer-container .side3{
   width: 100%;
+  margin-top: 30px;
   margin-left: 50px;
-  margin-top: 10px;
+
 }
 .footer .footer-container .side3 ul{
   display: block;
 }
+
 
 
 }
